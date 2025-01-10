@@ -1,0 +1,68 @@
+#rollDice {
+  margin-top: 30px;
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  color: #393E46;
+  background-color: #4ECCA3;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Indie Flower', cursive;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#rollDice:hover {
+  background-color: #3DB897;
+  transform: scale(1.1);
+}
+
+#rollDice:active {
+  background-color: #36A586;
+  transform: scale(1.05);
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+button {
+  display: block;
+  margin: 30px auto 0; /* Center the button horizontally and add spacing */
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
